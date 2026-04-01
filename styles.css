@@ -1,0 +1,183 @@
+:root {
+    --main-text-size: 30px;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("fonts/Norse_Bold/Norsebold.eot") format("eot"), 
+    url("fonts/Norse_Bold/Norsebold.woff") format("woff"), 
+    url("fonts/Norse_Bold/Norsebold.ttf") format("truetype"),
+    url("fonts/Norse_Bold/Norsebold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: var(--main-text-size);
+}
+
+form {
+    margin-left: 3vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 40vw;
+}
+
+img {
+    height: 130px;
+    margin: 10px 0 10px 0;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: #596D48;
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+a {
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0 4px 0 4px;
+}
+
+label {
+    font-size: 15px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+
+.lets-do-this {
+    opacity: 0.7;
+}
+
+.plants-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 30vw;
+}
+
+.plants-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-section {
+    width: 70vw;
+    padding-top: 14vh;
+    background-color: #fcfcfc;
+}
+
+.form-container {
+    margin-top: 5.4vh;
+    padding: 3vh 0 3vh 0;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    height: 30vh;
+    background-color: white;
+}
+
+
+
+.main-text {
+    font-size: var(--main-text-size);
+    font-weight: bold;
+    margin-left: 3vw;
+}
+
+.first {
+    width: 50vw;
+}
+
+.second {
+    margin-top: 20px;
+}
+
+.odin-text {
+    font-family: "Norse Bold", sans-serif;
+    font-size: 100px;
+    color: white;
+    height: 100px;
+}
+
+
+
+.photo-by {
+    color: white;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: medium;
+}
+
+
+
+.have-account {
+    font-size: large;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.log-in {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
+
+
+
+input:focus {
+    border-color: rgb(21, 21, 245);     
+    outline: none;             
+    box-shadow: 0 0 2px rgba(21, 21, 245, 0.5); 
+}
+
+input[type="password"]:invalid {
+    border-color: rgb(245, 21, 21);                
+    box-shadow: 0 0 2px rgba(245, 21, 21, 0.5);
+}
+
+input[type="password"]:invalid::before {
+    content: "The password must contain at least one capital letter and one number.";
+    color: red;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
