@@ -1,3 +1,5 @@
-# sign-up-form
+# Sign-Up-Form
 
-    En este proyecto desarrollaremos una pagina web basandonos en la imagen de ejemplo "images/example.png" para poder ir desarrollando los nuevos conocimientos adquiridos sobre HTML y CSS.
+In this proyect I developed a webpage using as example the image "images/example.png" to practice new skills about HTML and CSS.
+
+Alejandro 31-04-26
